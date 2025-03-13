@@ -1,0 +1,73 @@
+{
+  "@odata.context": "https://6a005-ai-search.search.windows.net/$metadata#indexers/$entity",
+  "@odata.etag": "\"0x8DD61F249041DC5\"",
+  "name": "venture-indexer",
+  "description": null,
+  "dataSourceName": "venture-dataset",
+  "skillsetName": null,
+  "targetIndexName": "venture-index-microsoft",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": null,
+    "maxFailedItemsPerBatch": null,
+    "base64EncodeKeys": null,
+    "configuration": {
+      "dataToExtract": "contentAndMetadata",
+      "parsingMode": "delimitedText",
+      "firstLineContainsHeaders": true,
+      "delimitedTextDelimiter": ","
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "id",
+      "targetFieldName": "id",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "분야",
+      "targetFieldName": "category",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "사업명",
+      "targetFieldName": "business",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "신청시작일",
+      "targetFieldName": "start_date",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "신청종료일",
+      "targetFieldName": "end_date",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "소관기관",
+      "targetFieldName": "competent",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "수행기관",
+      "targetFieldName": "agency",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "등록일자",
+      "targetFieldName": "notice_date",
+      "mappingFunction": null
+    },
+    {
+      "sourceFieldName": "url",
+      "targetFieldName": "url",
+      "mappingFunction": null
+    }
+  ],
+  "outputFieldMappings": [],
+  "cache": null,
+  "encryptionKey": null
+}

@@ -1,0 +1,54 @@
+{
+  "name": "venture-index-microsoft",
+  "fields": [
+    {
+      "name": "id",
+      "type": "Edm.String",
+      "key": true
+    },
+    {
+      "name": "category",
+      "type": "Edm.String",
+      "analyzer": "ko.microsoft",
+      "key": false
+    },
+    {
+      "name": "business",
+      "type": "Edm.String",
+      "analyzer": "ko.microsoft",
+      "key": false
+    },
+    {
+      "name": "start_date",
+      "type": "Edm.DateTimeOffset",
+      "key": false
+    },
+    {
+      "name": "end_date",
+      "type": "Edm.DateTimeOffset",
+      "key": false
+    },
+    {
+      "name": "competent",
+      "type": "Edm.String",
+      "analyzer": "ko.microsoft",
+      "key": false
+    },
+    {
+      "name": "agency",
+      "type": "Edm.String",
+      "analyzer": "ko.microsoft",
+      "key": false
+    },
+    {
+      "name": "notice_date",
+      "type": "Edm.DateTimeOffset",
+      "key": false
+    },
+    {
+      "name": "url",
+      "type": "Edm.String",
+      "key": false
+    }
+  ]
+}
